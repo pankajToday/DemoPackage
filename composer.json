@@ -1,0 +1,11 @@
+{
+    "name": "demo1/my_package",
+    "description": "this is demo",
+    "type": "project",
+    "require": {},
+    "license": "MIT",
+    "minimum-stability": "stable",
+	"autoload": {
+        "psr-4": {"vitalis\\HelloWorld\\": "src/"}
+    },
+}
