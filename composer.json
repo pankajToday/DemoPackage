@@ -1,11 +1,17 @@
 {
     "name": "demo1/my_package",
-    "description": "this is demo",
-    "type": "project",
-    "require": {},
+    "description": "A simple hello world composer package",
+    "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "pankaj kumar",
+            "email": "p1608088@gmail.com"
+        }
+    ],
     "minimum-stability": "stable",
-	"autoload": {
+    "autoload": {
         "psr-4": {"vitalis\\HelloWorld\\": "src/"}
-    }
+    },
+    "require": {}
 }
